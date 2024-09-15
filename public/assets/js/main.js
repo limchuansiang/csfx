@@ -99,7 +99,7 @@
       mirror: false
     });
   }
-  window.addEventListener('load', aosInit);
+  //window.addEventListener('load', aosInit);
 
   /**
    * Init swiper sliders
@@ -123,9 +123,9 @@
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
+  //const glightbox = GLightbox({
+  //  selector: '.glightbox'
+  //});
 
   /**
    * Init isotope layout and filters

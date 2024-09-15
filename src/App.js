@@ -1,11 +1,11 @@
 import React from "react"
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Header from './Header'
 import Hero from './Hero.js'
 import About from './About'
 import Convert from './Convert'
 import Footer from './Footer'
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
         script.async = true
         script.defer = false
         script.type = "text/javascript"
-        document.body.appendChild(script)
+        document.body.appendChild(script) 
       })
     };
     LoadExternalScript();
